@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BsList, BsX } from "react-icons/bs";
+import Logo from "../assets/Attendify Blue Text.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +14,10 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <a href="#" className="text-primary text-3xl font-bold">
+            {/* <a href="#" className="text-primary text-3xl font-bold">
               Attendify
-            </a>
+            </a> */}
+            <img src={Logo} alt="Logo" width={200} />
           </div>
           <div className="hidden sm:flex sm:items-center sm:space-x-4">
             <a
