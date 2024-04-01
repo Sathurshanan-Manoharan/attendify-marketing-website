@@ -2,7 +2,7 @@
 
     function Timetable() {
     return (
-        <div className="bg-primary flex justify-between items-center p-4 font-raleway"> 
+        <div className="bg-primary flex justify-between items-center p-4 font-Raleway"> 
         <div>
             <h2 className="text-xl text-white">Effortlessly Manage and View Timetables</h2> 
             <br />
