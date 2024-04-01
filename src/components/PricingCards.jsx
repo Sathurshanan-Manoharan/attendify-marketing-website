@@ -1,7 +1,7 @@
 const PricingCards = () => {
   return (
     <>
-      <div className="font-sans bg-gray-100 min-h-screen py-12 flex items-center justify-center">
+      <div className="font-Raleway bg-gray-100 min-h-screen py-12 flex items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
             <div className="p-1 bg-blue-200"></div>

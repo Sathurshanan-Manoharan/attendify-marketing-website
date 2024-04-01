@@ -1,7 +1,8 @@
 import "./index.css";
 import Navbar from "./components/Navbar";
 import LogoCarousel from "./components/LogoCarousel";
-import PricingCards from "./components/PricingCards";
+import PricingCards from "./components/PricingCards"
+import OurTeam from "./components/OurTeam";
 import Timetable from "./components/Timetable";
 
 
@@ -12,11 +13,15 @@ function App() {
       
       {/* Hero Section - adib */}
       <PricingCards />
-      <Timetable/>
+      
      
       <LogoCarousel />
      
   
+
+      <OurTeam />
+
+    <Timetable/>
       {/* Footer - Binuri */}
     </>
   );
