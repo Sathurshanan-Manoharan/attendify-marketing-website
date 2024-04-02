@@ -5,7 +5,7 @@ import PricingCards from "./components/PricingCards";
 import Hero from "./components/Hero";
 import OurTeam from "./components/OurTeam";
 import Timetable from "./components/Timetable";
-
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -16,7 +16,9 @@ function App() {
       <LogoCarousel />
       <OurTeam />
 
-    <Timetable/>
+      <Timetable />
+      <Subscribe />
+
       {/* Footer - Binuri */}
     </>
   );
