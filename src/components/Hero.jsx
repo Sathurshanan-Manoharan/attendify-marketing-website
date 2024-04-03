@@ -1,11 +1,10 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
 import DashboardImg from "../assets/DashboardImage.png";
 
 function Hero() {
   return (
-    <div className="max-h-screen h-screen flex justify-center items-center flex-col">
-      <div className="text-center text-4xl font-black text-slate-800  mb-8 md:mt-4 mx-4 md:mx-8">
+    <div className="max-h-screen h-screen bg-gray-900 flex justify-center items-center flex-col">
+      <div className="text-center text-4xl text-white mb-8 md:mt-4 mx-4 md:mx-8">
         <Typewriter
           options={{
             autoStart: true,
@@ -18,9 +17,7 @@ function Hero() {
               )
               .pauseFor(1000)
               .deleteChars(15)
-              .typeString(
-                "<span class='text-primary'>visualize data</span>"
-              )
+              .typeString("<span class='text-primary'>visualize data</span>")
               .pauseFor(1000)
               .deleteChars(14)
               .typeString("<span class='text-primary'>manage timetables</span>")

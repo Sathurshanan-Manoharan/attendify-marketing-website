@@ -7,18 +7,20 @@ import OurTeam from "./components/OurTeam";
 import Timetable from "./components/Timetable";
 import Features from "./components/Features";
 import Subscribe from "./components/Subscribe";
+import HeroTest from "./components/HeroTest";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <HeroTest />
+      {/* <Hero /> */}
       <PricingCards />
-      <LogoCarousel />
+      {/* <LogoCarousel />   */}
       <OurTeam />
-      <Features/>
-      <Timetable />
-      <Subscribe />
+      <Features />
+      {/* <Timetable /> */}
+      {/* <Subscribe /> */}
 
       {/* Footer - Binuri */}
     </>

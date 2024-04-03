@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'Raleway': ["Raleway", "sans-serif"],
+        'Raleway': ["Poppins", "sans-serif"],
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
