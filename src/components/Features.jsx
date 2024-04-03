@@ -7,10 +7,18 @@ import reports from "../assets/reports.png";
 import roleBased from "../assets/roleBased.png";
 import notification from "../assets/notification.png";
 import database from "../assets/database.png";
+import { GrSchedules } from "react-icons/gr";
+import { FaDatabase } from "react-icons/fa6";
+import { BiRfid } from "react-icons/bi";
+import { ImProfile } from "react-icons/im";
+import { AiOutlineCloudSync } from "react-icons/ai";
+import { TbReportAnalytics } from "react-icons/tb";
+import { IoIosWarning } from "react-icons/io";
+import { FaUserCog } from "react-icons/fa";
 
 const Features = () => {
   return (
-    <section className="bg-gray-900 font-Raleway pb-10">
+    <section id="features" className="bg-gray-900 font-Raleway pb-10">
       <div className="mx-auto max-w-screen-sm text-center">
         <h2 className="mb-4 text-8xl tracking-tight font-Raleway text-white">
           Features
@@ -25,15 +33,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <BiRfid
+            className="text-attendify-500"
             style={{
-              width: "160px",
+              width: "180px",
               height: "130px",
-              paddingLeft: "50px",
-              paddingTop: "30px",
+              paddingTop: "25px",
+              paddingLeft: "30px",
             }}
-            src={RFID}
-            alt="RFID Attendance Marking"
           />
           <div className="px-6 py-4">
             <h6 className="text-white text-s font-bold text-center ">
@@ -45,15 +52,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-300"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <AiOutlineCloudSync
+            className="text-attendify-500"
             style={{
-              width: "160px",
+              width: "180px",
               height: "130px",
-              paddingTop: "30px",
-              paddingLeft: "50px",
+              paddingTop: "25px",
+              paddingLeft: "30px",
             }}
-            src={onlineAttendance}
-            alt="Online Attendance Tracking"
           />
           <div className="px-2 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -65,15 +71,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <ImProfile
+            className="text-attendify-500"
             style={{
-              width: "150px",
+              width: "180px",
               height: "130px",
-              paddingTop: "30px",
-              paddingLeft: "50px",
+              paddingTop: "25px",
+              paddingLeft: "30px",
             }}
-            src={storingAttendance}
-            alt="Storing Attendance Records"
           />
           <div className="px-2 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -85,15 +90,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <GrSchedules
+            className="text-attendify-500"
             style={{
               width: "180px",
               height: "130px",
               paddingTop: "25px",
               paddingLeft: "30px",
             }}
-            src={timetable}
-            alt="Integration with Timetables"
           />
           <div className="px-6 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -107,15 +111,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <TbReportAnalytics
+            className="text-attendify-500"
             style={{
               width: "180px",
-              height: "120px",
-              paddingTop: "35px",
+              height: "130px",
+              paddingTop: "25px",
               paddingLeft: "30px",
             }}
-            src={reports}
-            alt="Generating Reports"
           />
           <div className="px-6 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -127,15 +130,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <FaUserCog
+            className="text-attendify-500"
             style={{
-              width: "150px",
-              height: "120px",
+              width: "180px",
+              height: "130px",
               paddingTop: "25px",
-              paddingLeft: "50px",
+              paddingLeft: "30px",
             }}
-            src={roleBased}
-            alt="Role-Based Access"
           />
           <div className="px-6 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -147,15 +149,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <IoIosWarning
+            className="text-attendify-500"
             style={{
-              width: "145px",
-              height: "115px",
-              paddingTop: "30px",
-              paddingLeft: "60px",
+              width: "180px",
+              height: "130px",
+              paddingTop: "25px",
+              paddingLeft: "30px",
             }}
-            src={notification}
-            alt="Parent Notification System"
           />
           <div className="px-5 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">
@@ -167,15 +168,14 @@ const Features = () => {
           className="max-w-xs mx-2 my-4 bg-gray-800 shadow-xl rounded-xl overflow-hidden transform hover:translate-y-[-2px] transition duration-250"
           style={{ width: "200px", height: "200px" }}
         >
-          <img
+          <FaDatabase
+            className="text-attendify-500"
             style={{
-              width: "600px",
-              height: "120px",
-              paddingTop: "30px",
-              paddingLeft: "2px",
+              width: "180px",
+              height: "130px",
+              paddingTop: "25px",
+              paddingLeft: "30px",
             }}
-            src={database}
-            alt="Centralized Data Management"
           />
           <div className="px-6 py-4">
             <h3 className="text-white text-s font-bold mb-2 text-center">

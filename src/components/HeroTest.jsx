@@ -6,7 +6,7 @@ const HeroTest = () => {
   const [isVideoPoppedUp, setVideoPopUp] = useState(false);
 
   return (
-    <section className="h-screen w-full flex justify-center items-center">
+    <section id="home" className="h-screen w-full flex justify-center items-center">
       <div className="bg-gray-900 font-Raleway items-center w-full h-full mx-auto pt-32 px-4 gap-12 text-gray-600 md:pt-0 md:px-10 xl:flex">
         {/* Content of the div */}
         <div className="space-y-8 max-w-4xl mx-auto text-center xl:text-left">

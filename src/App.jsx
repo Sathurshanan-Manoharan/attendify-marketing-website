@@ -8,6 +8,7 @@ import Timetable from "./components/Timetable";
 import Features from "./components/Features";
 import Subscribe from "./components/Subscribe";
 import HeroTest from "./components/HeroTest";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
       <OurTeam />
 
       {/* <Timetable /> */}
-      {/* <Subscribe /> */}
+      <Subscribe />
 
-      {/* Footer - Binuri */}
+      <Footer />
     </>
   );
 }
