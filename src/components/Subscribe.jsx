@@ -5,8 +5,12 @@ function Subscribe() {
     <div className="flex flex-col items-center justify-center h-1/2 my-32 bg-gray-900">
       {/* Heading and paragraph */}
       <div className="text-center">
-        <h1 className="text-white text-4xl font-medium">Subscribe to our Newsletter!</h1>
-        <p className="text-slate-300">To receive offers and updates on latest trends</p>
+        <h1 className="text-white text-4xl font-medium">
+          Subscribe to our Newsletter!
+        </h1>
+        <p className="text-slate-300">
+          To receive offers and updates on latest trends
+        </p>
       </div>
 
       {/* Input fields and button in a row (for larger screens) */}
@@ -22,7 +26,7 @@ function Subscribe() {
           </svg>
           <input type="text" className="grow" placeholder="Name" />
         </label>
-        <label className="input input-bordered flex items-center gap-2 bg-slate-100">
+        <label className="input input-bordered flex items-center gap-2 mr-4 bg-slate-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
@@ -34,7 +38,13 @@ function Subscribe() {
           </svg>
           <input type="text" className="grow" placeholder="Email" />
         </label>
-        <button type="submit" className="text-white bg-gradient-to-r from-attendify-400 via-attendify-500 to-attendify-600 hover:bg-gradient-to-br focus:ring-4 focus:ring-attendify-200 dark:focus:ring-attendify-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ml-4">Subscribe</button>
+        <button
+          href="#"
+          className="w-full relative text-white hover:text-primary hover:bg-white inset-0 border border-white px-4 py-1 rounded-full text-base font-medium transition duration-500 overflow-hidden"
+        >
+          Subscribe
+          <span className="absolute inset-0 border border-white rounded-full px-3 py-2 text-base font-medium opacity-0 hover:opacity-100 transition duration-500"></span>
+        </button>
       </div>
 
       {/* Media query for smaller screens */}

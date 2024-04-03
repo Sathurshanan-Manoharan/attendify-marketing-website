@@ -1,16 +1,17 @@
-import React from "react";
-
 const PricingCards = () => {
   return (
     <>
-      <div id="pricing" className="font-Raleway bg-gray-900 min-h-screen py-12 flex flex-col items-center justify-center">
+      <div
+        id="pricing"
+        className="font-Raleway bg-gray-900 min-h-screen py-12 flex flex-col items-center justify-center"
+      >
         <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-6">
           <h2 className="mb-8 text-8xl tracking-tight font-Raleway text-white">
             Our Pricing
           </h2>
           <p className="font-light text-gray-400 lg:mb-6 sm:text-xl px-4">
-            Our team comprises dedicated individuals committed to driving
-            innovation and excellence in every aspect of our work.
+            We offer flexible options tailored to your institution's needs, with
+            transparent pricing and no hidden fees.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -19,9 +20,7 @@ const PricingCards = () => {
             <div className="p-8">
               <h2 className="text-4xl text-gray-100 mb-4">Basic Plan</h2>
               <p className="text-primary mb-6">Ideal for small institutions</p>
-              <p className="text-4xl font-bold text-gray-100 mb-6">
-                $3.99/User
-              </p>
+              <p className="text-4xl font-bold text-gray-100 mb-6">Free</p>
               <ul className="text-sm text-gray-200 mb-6">
                 <li className="mb-2 flex items-center">
                   <svg
@@ -38,7 +37,7 @@ const PricingCards = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Min 25 Users
+                  Max 20 Users
                 </li>
                 <li className="mb-2 flex items-center">
                   <svg

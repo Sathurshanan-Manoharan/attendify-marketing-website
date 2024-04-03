@@ -6,7 +6,10 @@ const HeroTest = () => {
   const [isVideoPoppedUp, setVideoPopUp] = useState(false);
 
   return (
-    <section id="home" className="h-screen w-full flex justify-center items-center">
+    <section
+      id="home"
+      className="h-screen w-full flex justify-center items-center"
+    >
       <div className="bg-gray-900 font-Raleway items-center w-full h-full mx-auto pt-32 px-4 gap-12 text-gray-600 md:pt-0 md:px-10 xl:flex">
         {/* Content of the div */}
         <div className="space-y-8 max-w-4xl mx-auto text-center xl:text-left">
@@ -20,7 +23,7 @@ const HeroTest = () => {
           </p>
           <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0 xl:justify-start">
             <a
-              href="javascript:void(0)"
+              href="https://www.attendify.online/login"
               className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-100 hover:text-gray-100 font-medium duration-150 active:bg-gray-100 active:text-primary border rounded-full md:inline-flex"
             >
               Get access
