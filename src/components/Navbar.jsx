@@ -21,35 +21,35 @@ function Navbar() {
           </div>
           <div className="hidden sm:flex sm:items-center sm:space-x-4">
             <a
-              href="#"
+              href="#home"
               className="relative text-white px-3 py-2 rounded-full text-sm font-medium transition duration-500"
             >
               Home
               <span className="absolute inset-0 border border-white rounded-full opacity-0 hover:opacity-100 transition duration-500"></span>
             </a>
             <a
-              href="#"
+              href="#features"
               className="relative text-white px-3 py-2 rounded-full text-sm font-medium transition duration-500"
             >
-              About
+              Features
               <span className="absolute inset-0 border border-white rounded-full opacity-0 hover:opacity-100 transition duration-500"></span>
             </a>
             <a
-              href="#"
+              href="#pricing"
               className="relative text-white px-3 py-2 rounded-full text-sm font-medium transition duration-500"
             >
-              Services
+              Pricing
               <span className="absolute inset-0 border border-white rounded-full opacity-0 hover:opacity-100 transition duration-500"></span>
             </a>
             <a
-              href="#"
+              href="#ourteam"
               className="relative text-white px-3 py-2 rounded-full text-sm font-medium transition duration-500"
             >
-              Contact
+              Our Team
               <span className="absolute inset-0 border border-white rounded-full opacity-0 hover:opacity-100 transition duration-500"></span>
             </a>
             <a
-              href="#"
+              href="mailto:attendify.lk@gmail.com"
               className="relative text-white hover:text-primary hover:bg-white inset-0 border border-white px-3 py-1 rounded-full text-base font-medium transition duration-500 overflow-hidden"
             >
               GET IN TOUCH

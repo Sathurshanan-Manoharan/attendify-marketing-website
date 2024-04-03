@@ -2,16 +2,16 @@ import React from "react";
 
 function Subscribe() {
   return (
-    <div className="flex flex-col items-center justify-center h-1/2 my-32 ">
+    <div className="flex flex-col items-center justify-center h-1/2 my-32 bg-gray-900">
       {/* Heading and paragraph */}
       <div className="text-center">
-        <h1 className="text-slate-800 text-4xl font-medium">Subscribe to our Newsletter!</h1>
-        <p>To receive offers and updates on latest trends</p>
+        <h1 className="text-white text-4xl font-medium">Subscribe to our Newsletter!</h1>
+        <p className="text-slate-300">To receive offers and updates on latest trends</p>
       </div>
 
-      {/* Input fields in a row */}
-      <div className="flex mt-4"> {/* Add margin for spacing */}
-        <label className="input input-bordered flex items-center gap-2 mr-4"> {/* Add margin for spacing */}
+      {/* Input fields and button in a row (for larger screens) */}
+      <div className="flex mt-4">
+        <label className="input input-bordered flex items-center gap-2 mr-4 bg-slate-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
@@ -22,7 +22,7 @@ function Subscribe() {
           </svg>
           <input type="text" className="grow" placeholder="Name" />
         </label>
-        <label className="input input-bordered flex items-center gap-2">
+        <label className="input input-bordered flex items-center gap-2 bg-slate-100">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
@@ -34,9 +34,21 @@ function Subscribe() {
           </svg>
           <input type="text" className="grow" placeholder="Email" />
         </label>
-        <button type="submit" className="btn bg-primary text-white rounded-3xl ml-3 hover:bg-attendify-600 transition duration-300">Subscribe</button>
-
+        <button type="submit" className="text-white bg-gradient-to-r from-attendify-400 via-attendify-500 to-attendify-600 hover:bg-gradient-to-br focus:ring-4 focus:ring-attendify-200 dark:focus:ring-attendify-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ml-4">Subscribe</button>
       </div>
+
+      {/* Media query for smaller screens */}
+      <style jsx>{`
+        @media screen and (max-width: 768px) {
+          .flex.mt-4 {
+            flex-direction: column;
+          }
+          .flex.mt-4 > label,
+          .flex.mt-4 > button {
+            margin-bottom: 1rem;
+          }
+        }
+      `}</style>
     </div>
   );
 }

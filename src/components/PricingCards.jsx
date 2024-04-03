@@ -3,7 +3,7 @@ import React from "react";
 const PricingCards = () => {
   return (
     <>
-      <div className="font-Raleway bg-gray-900 min-h-screen py-12 flex flex-col items-center justify-center">
+      <div id="pricing" className="font-Raleway bg-gray-900 min-h-screen py-12 flex flex-col items-center justify-center">
         <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-6">
           <h2 className="mb-8 text-8xl tracking-tight font-Raleway text-white">
             Our Pricing
