@@ -1,3 +1,5 @@
+import React from "react";
+
 const PricingCards = () => {
   return (
     <>
@@ -6,13 +8,13 @@ const PricingCards = () => {
           <h2 className="mb-8 text-8xl tracking-tight font-Raleway text-white">
             Our Pricing
           </h2>
-          <p className="font-light text-gray-400 lg:mb-6 sm:text-xl">
+          <p className="font-light text-gray-400 lg:mb-6 sm:text-xl px-4">
             Our team comprises dedicated individuals committed to driving
             innovation and excellence in every aspect of our work.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105 sm:max-w-sm">
             <div className="p-1 bg-primary"></div>
             <div className="p-8">
               <h2 className="text-4xl text-gray-100 mb-4">Basic Plan</h2>
@@ -84,8 +86,8 @@ const PricingCards = () => {
               </button>
             </div>
           </div>
-
-          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+          {/* Repeat the same structure for other pricing plans */}
+          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105 sm:max-w-sm">
             <div className="p-1 bg-primary"></div>
             <div className="p-8">
               <h2 className="text-4xl text-gray-100 mb-4">Pro Plan</h2>
@@ -160,7 +162,8 @@ const PricingCards = () => {
             </div>
           </div>
 
-          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+          {/* Repeat the same structure for other pricing plans */}
+          <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105 sm:max-w-sm">
             <div className="p-1 bg-primary"></div>
             <div className="p-8">
               <h2 className="text-4xl text-gray-100 mb-4">Enterprise Plan</h2>

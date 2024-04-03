@@ -15,10 +15,11 @@ function App() {
       <Navbar />
       <HeroTest />
       {/* <Hero /> */}
+      <Features />
       <PricingCards />
       {/* <LogoCarousel />   */}
       <OurTeam />
-      <Features />
+
       {/* <Timetable /> */}
       {/* <Subscribe /> */}
 

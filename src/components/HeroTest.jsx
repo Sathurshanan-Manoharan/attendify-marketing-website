@@ -14,7 +14,7 @@ const HeroTest = () => {
             Your go to solution for
             <span className="text-primary"> Attendance</span> tracking.
           </h1>
-          <p className="max-w-xl text-gray-200 mx-auto xl:mx-0">
+          <p className="font-light sm:text-xl max-w-xl text-gray-400 mx-auto xl:mx-0">
             Attendify is a revolutionary attendance management solution designed
             to modernize the way educational institutions track attendance.
           </p>
