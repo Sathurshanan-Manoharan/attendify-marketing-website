@@ -3,8 +3,8 @@ import Sathu from "../assets/SathuuSU.png";
 import Adib from "../assets/Adib.jpeg";
 import Nethmini from "../assets/Nethmini.jpg";
 import Rishen from "../assets/Rishen.jpg";
-import Inoj from "src/assets/Inoj.jpg";
-import Binuri from "src\assets\binuri.png";
+import Inoj from "../assets/Inoj.jpg";
+import Binuri from "../assets/binuri.png";
 
 const OurTeam = () => {
   return (
