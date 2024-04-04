@@ -3,6 +3,8 @@ import Sathu from "../assets/SathuuSU.png";
 import Adib from "../assets/Adib.jpeg";
 import Nethmini from "../assets/Nethmini.jpg";
 import Rishen from "../assets/Rishen.jpg";
+import Inoj from "src/assets/Inoj.jpg";
+import Binuri from "src\assets\binuri.png";
 
 const OurTeam = () => {
   return (
@@ -242,7 +244,7 @@ const OurTeam = () => {
             <a href="#">
               <img
                 className="w-full h-full max-h-80 rounded-lg sm:rounded-none sm:rounded-l-lg"
-                src={Sathu}
+                src={Inoj}
                 alt="Inoj image"
                 // style={{ maxHeight: "30" }} // Adjust minimum height as needed
               />
@@ -258,7 +260,7 @@ const OurTeam = () => {
               <ul className="flex space-x-4 sm:mt-0">
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/inojh.02/"
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaInstagram size={20} />
@@ -266,7 +268,7 @@ const OurTeam = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/inojh/"
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaLinkedin size={20} />
@@ -274,7 +276,7 @@ const OurTeam = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/Inoj-Hettiarachchi"
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaGithub size={20} />
@@ -297,8 +299,8 @@ const OurTeam = () => {
             <a href="#">
               <img
                 className="w-full h-full max-h-80 rounded-lg sm:rounded-none sm:rounded-l-lg"
-                src={Sathu}
-                alt="Sathu image"
+                src={Binuri}
+                alt="Binuri image"
                 // style={{ maxHeight: "30" }} // Adjust minimum height as needed
               />
             </a>
