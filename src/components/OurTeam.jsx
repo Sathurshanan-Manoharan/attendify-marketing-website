@@ -141,7 +141,7 @@ const OurTeam = () => {
             </a>
             <div className="p-5">
               <h3 className="text-xl font-bold tracking-tight text-white">
-                <a href="#">Nethmini Apasara</a>
+                <a href="#">Nethmini Apsara</a>
               </h3>
               <span className="text-gray-500">Fullstack Developer</span>
               <p className="mt-3 mb-4 font-light text-gray-400 ">
@@ -150,7 +150,7 @@ const OurTeam = () => {
               <ul className="flex space-x-4 sm:mt-0">
                 <li>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/_apzolo_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaInstagram size={20} />
@@ -158,7 +158,7 @@ const OurTeam = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/in/nethmini-apsara/"
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaLinkedin size={20} />
@@ -166,7 +166,7 @@ const OurTeam = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/nethmini22"
                     className="transition duration-600 ease-in-out text-gray-400 hover:text-gray-100"
                   >
                     <FaGithub size={20} />
