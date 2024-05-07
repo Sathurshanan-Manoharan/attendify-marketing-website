@@ -20,7 +20,7 @@ const PricingCards = () => {
             <div className="p-8">
               <h2 className="text-4xl text-gray-100 mb-4">Basic Plan</h2>
               <p className="text-primary mb-6">Ideal for small institutions</p>
-              <p className="text-4xl font-bold text-gray-100 mb-6">Free</p>
+              <p className="text-4xl font-bold text-gray-100 mb-6">$0.99/User</p>
               <ul className="text-sm text-gray-200 mb-6">
                 <li className="mb-2 flex items-center">
                   <svg
@@ -112,7 +112,7 @@ const PricingCards = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Min 200 Users
+                  Max 200 Users
                 </li>
                 <li className="mb-2 flex items-center">
                   <svg
