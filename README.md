@@ -4,7 +4,6 @@ Attendify is an advanced attendance management system. It leverages RFID technol
 
 ## Features
 
-- RFID Technology Integration: Utilizes RFID technology for efficient attendance management.
 - User-Friendly Interface: Provides an intuitive interface for easy navigation and usage.
 - Real-Time Updates: Updates attendance records in real-time for accurate tracking.
 - Customizable Settings: Allows customization of attendance settings to fit various organizational needs.
@@ -14,7 +13,6 @@ Attendify is an advanced attendance management system. It leverages RFID technol
 
 - React: A JavaScript library for building user interfaces.
 - Vite: A fast frontend build tool that serves modern JavaScript and TypeScript.
-- RFID Technology: Utilizes Radio Frequency Identification for attendance tracking.
 
 ## Getting Started
 
